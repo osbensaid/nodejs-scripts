@@ -1,0 +1,15 @@
+{
+  "name": "sqlitetojson",
+  "version": "1.0.0",
+  "description": "A Node.js script to query data from an SQLite database and save it as JSON.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Oussama Bensaid",
+  "license": "ISC",
+  "dependencies": {
+    "sqlite3": "^5.1.7"
+  }
+}
