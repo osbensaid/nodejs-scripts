@@ -1,0 +1,15 @@
+{
+  "name": "imgstojson",
+  "version": "1.0.0",
+  "description": "The script utilizes the Tesseract.js library to extract text from images using OCR.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Oussama Bensaid",
+  "license": "ISC",
+  "dependencies": {
+    "tesseract.js": "^5.0.5"
+  }
+}
