@@ -1,11 +1,11 @@
-# nodejs-scripts
+# SQLite to JSON Converter
 
-This Node.js script utilizes the Tesseract.js library to extract text content from image files within a specified directory. The extracted text data is then saved into a JSON file for further analysis or processing.
+This Node.js script queries data from an SQLite database and saves it as JSON format.
 
 ### Prerequisites
 
 1. Node.js installed on your machine
-2. Image files (.jpg, .png, etc.) located in the specified directory (./images by default)
+2. SQLite database file (e.g., chinook.db) with the data you want to query
 
 ### Installation
 
@@ -15,11 +15,12 @@ This Node.js script utilizes the Tesseract.js library to extract text content fr
 
 ### Usage
 
-1. Place your image files to be processed into the ./images directory.
-2. Modify the directory variable in the script (index.js) if your image files are located in a different directory.
+1. Ensure your SQLite database file (chinook.db in this example) is accessible and contains the data you want to query.
+2. Open the index.js file and update the following variables based on your database and desired output location:
+   > const dbPath = "path/to/your/database.db";<br>const outputPath = "path/to/output/data.json";
 3. Run the script using Node.js:
    > node index.js
-4. After execution, a scannedData.json file will be created containing the extracted text data from the images.
+4. Once executed, the script will query the specified data from the SQLite database and save it as JSON to the specified output file (data.json).
 
 ### Author
 
